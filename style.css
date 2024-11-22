@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+nav {
+  width: 60%;
+  width: 60vw;
+  background-color: pink;
+}/*# sourceMappingURL=style.css.map */

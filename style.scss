@@ -1,0 +1,23 @@
+* {
+  margin: 0; //margem
+  padding: 0; //preenchimento
+  box-sizing: border-box; //aceite as medidas que eu colocar no código
+}
+
+header {
+  background-color: yellow; //background-color: cor de fundo
+  display: flex; //Ativar as caixas flexíveis
+  justify-content: flex-start; //É o padrão. Os itens são postos no começo do eixo x (horizontal)
+  justify-content: flex-end;//Os itens são postos no final do eixo x. 
+  justify-content: center; //Os itens ficam centralizados no eixo x.
+
+  justify-content: space-around; //Espaçamento ao redor
+  justify-content: space-evenly; //Tem o mesmo espaçamento entre os itens
+  justify-content: space-between; //O primeiro e o último item ficam encostados na laterais, e os demais tem o mesmo espaçamento entre sí.
+}
+
+nav{
+    width: 60%; //width=largura, Pegando 60% do tamanho da header. Sempre vai ser baseada na caixa pai.
+    width: 60vw; //viewport width. Sempre vai ser baseada no tamanho da janela de exibição.
+    background-color: pink ;
+}

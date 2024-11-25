@@ -57,3 +57,18 @@ a {
   text-decoration: none; //sem, decoração
   color: #000000;
 }
+
+.containerHistoria {
+  border: solid red;
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row; //Linha, é o comportamento padrão.
+  flex-direction: row-reverse; // Linha reversa
+  flex-direction: column-reverse; //coluna reversa
+  flex-direction: column; //Coluna
+
+  //Revisão para a próxima aula
+  align-items: center;
+  justify-content: space-evenly;
+}

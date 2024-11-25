@@ -51,4 +51,17 @@ a {
   text-decoration: overline;
   text-decoration: none;
   color: #000000;
+}
+
+.containerHistoria {
+  border: solid red;
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column-reverse;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */

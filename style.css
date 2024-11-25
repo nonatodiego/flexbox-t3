@@ -5,18 +5,33 @@
 }
 
 header {
-  background-color: yellow;
+  height: 20vh;
+  background-color: #D9D9D9;
   display: flex;
   justify-content: flex-start;
   justify-content: flex-end;
   justify-content: center;
-  justify-content: space-around;
   justify-content: space-evenly;
   justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
 }
 
 nav {
-  width: 60%;
+  width: 50%;
   width: 60vw;
-  background-color: pink;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+li {
+  font-size: 32px;
+  font-size: 2rem;
+  font-size: 2em;
 }/*# sourceMappingURL=style.css.map */

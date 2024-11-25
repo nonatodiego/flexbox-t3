@@ -5,19 +5,33 @@
 }
 
 header {
-  background-color: yellow; //background-color: cor de fundo
-  display: flex; //Ativar as caixas flexíveis
-  justify-content: flex-start; //É o padrão. Os itens são postos no começo do eixo x (horizontal)
+  height: 20vh;
+  background-color: #D9D9D9; //background-color: cor de fundo
+ display: flex; //Ativar as caixas flexíveis
+ justify-content: flex-start; //É o padrão. Os itens são postos no começo do eixo x (horizontal)
   justify-content: flex-end;//Os itens são postos no final do eixo x. 
   justify-content: center; //Os itens ficam centralizados no eixo x.
-
-  justify-content: space-around; //Espaçamento ao redor
   justify-content: space-evenly; //Tem o mesmo espaçamento entre os itens
   justify-content: space-between; //O primeiro e o último item ficam encostados na laterais, e os demais tem o mesmo espaçamento entre sí.
+  justify-content: space-around; //Espaçamento ao redor
+  align-items: flex-start; //Os itens são alinhados no começo do eixo Y.
+  align-items: flex-end; //Os itens são alinhados no final do eixo X.
+  align-items: center; //Os itens são alinhados no meio do eixo Y. Eixo Y é vertical. 
 }
 
 nav{
-    width: 60%; //width=largura, Pegando 60% do tamanho da header. Sempre vai ser baseada na caixa pai.
+    width: 50%; //width=largura, Pegando 60% do tamanho da header. Sempre vai ser baseada na caixa pai.
     width: 60vw; //viewport width. Sempre vai ser baseada no tamanho da janela de exibição.
-    background-color: pink ;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly; 
+  list-style: none; //List-style é o estilo da lista. None, não quero estilo para essa lista.
+}
+
+li{ //font-size: tamanho da fonte
+  font-size: 32px; // Pixel px é uma medida fixa
+  font-size: 2rem; //16 * 2 = 32 É baseado na medida do elemento raiz, caso especificamos a medida. Caso não, é baseado em 16px 1rem = 16px
+  font-size: 2em; //16 * 2 = 32 É baseado na medida do elemento pai, caso especificamos a medida. Caso não, é baseado em 16px 1em = 16px
 }
